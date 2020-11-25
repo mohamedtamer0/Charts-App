@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@color/backGround"
+    >
+
+    <Button
+        android:id="@+id/btnBarChrt"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="BAR CHART"
+        app:backgroundTint="#03A9F4" />
+
+    <Button
+        android:id="@+id/btnPieChrt"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="BAR PIE"
+        app:backgroundTint="#FF5722" />
+
+    <Button
+        android:id="@+id/btnRadarChrt"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="BAR RADAR"
+        app:backgroundTint="#FFC107" />
+
+
+
+</LinearLayout>
